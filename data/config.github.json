@@ -23,7 +23,7 @@
         "topic_dedup": true
       },
       "tech-blog": {
-        "threshold": 4.0,
+        "threshold": 5.0,
         "topic_dedup": false
       },
       "ai-creator": {
@@ -39,103 +39,263 @@
     "hackernews": {
       "enabled": true,
       "fetch_top_stories": 30,
-      "min_score": 100,
+      "min_score": 200,
       "category": "tech",
       "profile": "tech-news"
     },
     "rss": [
       {
+        "name": "Product Hunt",
+        "url": "https://www.producthunt.com/feed",
+        "enabled": true,
+        "category": "product",
+        "profile": "tech-news"
+      },
+      {
+        "name": "Lenny's Newsletter",
+        "url": "https://www.lennysnewsletter.com/feed",
+        "enabled": true,
+        "category": "product",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "人人都是产品经理",
+        "url": "https://www.woshipm.com/feed",
+        "enabled": true,
+        "category": "product",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Every.to",
+        "url": "https://news.google.com/rss/search?q=site:every.to&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "creator",
+        "profile": "ai-creator"
+      },
+      {
+        "name": "Creator Economy So",
+        "url": "https://creatoreconomy.so/feed",
+        "enabled": true,
+        "category": "creator",
+        "profile": "ai-creator",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Not Boring",
+        "url": "https://www.notboring.co/feed",
+        "enabled": true,
+        "category": "creator",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "The Generalist",
+        "url": "https://www.generalist.com/feed",
+        "enabled": true,
+        "category": "creator",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "a16z",
+        "url": "https://news.google.com/rss/search?q=site:a16z.com&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "creator",
+        "profile": "tech-news"
+      },
+      {
+        "name": "少数派",
+        "url": "https://sspai.com/feed",
+        "enabled": true,
+        "category": "creator",
+        "profile": "ai-creator",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "The Block",
+        "url": "https://www.theblock.co/rss.xml",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-news"
+      },
+      {
+        "name": "CoinDesk",
+        "url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-news"
+      },
+      {
+        "name": "Decrypt",
+        "url": "https://decrypt.co/feed",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-news"
+      },
+      {
+        "name": "Bankless",
+        "url": "https://www.bankless.com/feed",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Vitalik Buterin",
+        "url": "https://vitalik.eth.limo/feed.xml",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "a16z crypto",
+        "url": "https://a16zfrontier.com/feed.xml",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Paradigm",
+        "url": "https://news.google.com/rss/search?q=site:paradigm.xyz&hl=en-US&gl=US&ceid=US:en",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-blog"
+      },
+      {
+        "name": "PANews",
+        "url": "https://www.panewslab.com/rss.xml",
+        "enabled": true,
+        "category": "web3",
+        "profile": "tech-news"
+      },
+      {
+        "name": "Latent Space",
+        "url": "https://www.latent.space/feed",
+        "enabled": true,
+        "category": "ai-tools",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
         "name": "Simon Willison",
         "url": "https://simonwillison.net/atom/everything/",
         "enabled": true,
         "category": "ai-tools",
+        "profile": "tech-blog",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Cursor Changelog",
+        "url": "https://cursor.com/changelog/rss.xml",
+        "enabled": true,
+        "category": "vibecoding",
         "profile": "tech-news"
       },
       {
         "name": "OpenAI News",
         "url": "https://openai.com/news/rss.xml",
         "enabled": true,
-        "category": "ai-labs",
-        "profile": "tech-news"
-      },
-      {
-        "name": "Google DeepMind",
-        "url": "https://deepmind.google/blog/rss.xml",
-        "enabled": true,
-        "category": "ai-labs",
+        "category": "ai-tools",
         "profile": "tech-news"
       },
       {
         "name": "Google AI Blog",
         "url": "https://blog.google/technology/ai/rss/",
         "enabled": true,
-        "category": "ai-labs",
-        "profile": "tech-news"
-      },
-      {
-        "name": "The BMad Code",
-        "url": "https://blog.bmadcode.com/rss/",
-        "enabled": true,
         "category": "ai-tools",
-        "profile": "tech-blog"
+        "profile": "tech-news"
       },
       {
-        "name": "GitHub Trending - Daily",
-        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+        "name": "极客公园",
+        "url": "https://www.geekpark.net/rss",
         "enabled": true,
-        "category": "github-trending",
-        "profile": "tech-news"
+        "category": "tech",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura"
       }
     ],
     "google_news": {
       "enabled": true,
-      "query": "site:anthropic.com",
+      "query": "\"Claude Code\" OR site:anthropic.com",
       "language": "en",
       "country": "US",
       "max_results": 20,
-      "category": "ai-labs",
+      "category": "vibecoding",
       "profile": "tech-news"
     },
     "reddit": {
       "enabled": true,
       "subreddits": [
         {
-          "subreddit": "MachineLearning",
+          "subreddit": "ethereum",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 60,
-          "category": "machine-learning",
+          "min_score": 80,
+          "category": "web3",
           "profile": "tech-news"
         },
         {
-          "subreddit": "LocalLLaMA",
+          "subreddit": "CryptoCurrency",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 8,
+          "min_score": 250,
+          "category": "web3",
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "ChatGPTCoding",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
           "fetch_limit": 10,
-          "min_score": 60,
-          "category": "ai-tools",
+          "min_score": 30,
+          "category": "vibecoding",
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "cursor",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 20,
+          "category": "vibecoding",
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "vibecoding",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 15,
+          "category": "vibecoding",
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "ClaudeAI",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 40,
+          "category": "vibecoding",
           "profile": "tech-news"
         }
       ],
       "users": [],
-      "fetch_comments": 10
+      "fetch_comments": 8
     },
     "ossinsight": {
-      "enabled": true,
-      "period": "past_24_hours",
-      "languages": [
-        "All",
-        "Python",
-        "TypeScript"
-      ],
-      "keywords": [],
-      "min_stars": 10,
-      "max_items": 30,
-      "category": "oss-trending",
-      "profile": "tech-news"
+      "enabled": false
     },
     "github": [],
     "telegram": {
@@ -154,15 +314,52 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 20,
+    "max_items": 25,
     "profile_order": [
       "tech-news",
       "tech-blog",
       "ai-creator"
     ],
-    "category_groups": {},
+    "category_groups": {
+      "ai-vibe": {
+        "name": "AI 工具 / Vibe Coding",
+        "limit": 7,
+        "categories": [
+          "ai-tools",
+          "vibecoding"
+        ]
+      },
+      "web3": {
+        "name": "Web3",
+        "limit": 5,
+        "categories": [
+          "web3"
+        ]
+      },
+      "product": {
+        "name": "产品",
+        "limit": 4,
+        "categories": [
+          "product"
+        ]
+      },
+      "creator": {
+        "name": "自媒体",
+        "limit": 4,
+        "categories": [
+          "creator"
+        ]
+      },
+      "tech": {
+        "name": "科技 / 技术方向",
+        "limit": 5,
+        "categories": [
+          "tech"
+        ]
+      }
+    },
     "default_group": "other",
-    "default_group_limit": null
+    "default_group_limit": 2
   },
   "webhook": {
     "enabled": false
