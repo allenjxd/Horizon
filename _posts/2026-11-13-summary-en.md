@@ -5,311 +5,392 @@ date: 2026-11-13
 lang: en
 ---
 
-> From 38 items, 11 important content pieces were selected
+> From 245 items, 17 important content pieces were selected
 
 ---
 
 **Technology News**
-1. [Google announces Gemini 4 Hydrogen](#item-tech-news-1) ⭐️ 9.0/10
-2. [Reported Anthropic IPO plan pairs fundraising with vast compute commitments](#item-tech-news-2) ⭐️ 9.0/10
-3. [Nvidia reportedly announces Jensen Huang’s CEO resignation](#item-tech-news-3) ⭐️ 8.0/10
-4. [Rust 1.100: Never Type, Custom Allocators, and Cargo Controls](#item-tech-news-4) ⭐️ 8.0/10
-5. [Microsoft 365 Outlook outage disrupts email for hours](#item-tech-news-5) ⭐️ 8.0/10
-6. [CVE-2026-6460 chains PostgreSQL type confusion into RCE](#item-tech-news-6) ⭐️ 8.0/10
-7. [AMD Zen 6 Tradeoffs in Mike Clark’s Deep Dive](#item-tech-news-7) ⭐️ 8.0/10
-8. [UMAP 0.6 Adds Faster Search and New Optimizers](#item-tech-news-8) ⭐️ 8.0/10
-9. [Apple Foundation Models framework for Swift apps](#item-tech-news-9) ⭐️ 7.0/10
-10. [Edge0 Announces 145B Local Model With 29GB Peak Memory](#item-tech-news-10) ⭐️ 7.0/10
-11. [Audit finds TRIBE v2 reproduces motion, not topographic maps](#item-tech-news-11) ⭐️ 7.0/10
+1. [Jensen Huang resigns as Nvidia CEO](#item-tech-news-1) ⭐️ 8.0/10
+2. [Google Introduces Gemini 4 Hydrogen and Orchestrator for Antigravity](#item-tech-news-2) ⭐️ 8.0/10
+3. [Apple Foundation Models framework adds on-device and cloud access](#item-tech-news-3) ⭐️ 8.0/10
+4. [DTCC Plans Solana Addition for 2027 Tokenization Rollout](#item-tech-news-4) ⭐️ 8.0/10
+5. [Anthropic posts official U.S. IPO materials](#item-tech-news-5) ⭐️ 7.0/10
+6. [Smolmaxxing Claims 16B LLMs on Sub-1GB Devices](#item-tech-news-6) ⭐️ 7.0/10
+7. [Replicate Converts Webflow or Framer Apps for Claude or Codex](#item-tech-news-7) ⭐️ 7.0/10
+8. [Adding context, memory, streaming, and tracing to LangChain agents](#item-tech-news-8) ⭐️ 7.0/10
+9. [NYSE Selects Avalanche for Planned 24/7 Tokenized-Stock Platform](#item-tech-news-9) ⭐️ 7.0/10
+10. [VisaNet adds USDPT as a settlement asset](#item-tech-news-10) ⭐️ 7.0/10
+11. [Securitize and Ethena Launch $100M BUIDL Liquidity Facility](#item-tech-news-11) ⭐️ 7.0/10
+
+**Technology Blog**
+1. [Variational’s Single-Dealer Bet Goes Public](#item-tech-blog-1) ⭐️ 8.0/10
+2. [ArtCraft Uses Agents to Rebuild Open-Source Software](#item-tech-blog-2) ⭐️ 7.0/10
+3. [AI Briefing: Leadership, Models, and Inference](#item-tech-blog-3) ⭐️ 6.0/10
+
+**AI Creator Radar**
+1. [How AI Agents Helped an Independent Developer Test and Refine Mole](#item-ai-creator-1) ⭐️ 8.0/10
+2. [AI-Assisted Review Writing: One Researcher’s Workflow](#item-ai-creator-2) ⭐️ 7.0/10
+3. [NVIDIA Leadership Change and New AI Tools Headline a Tech Roundup](#item-ai-creator-3) ⭐️ 7.0/10
 
 ---
 
 ## Technology News
 
 <a id="item-tech-news-1"></a>
-### [Google announces Gemini 4 Hydrogen](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) ⭐️ 9.0/10
+### [Jensen Huang resigns as Nvidia CEO](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) ⭐️ 8.0/10
 
-Google announced Gemini 4 Hydrogen as the next Gemini model generation, and the supplied account indicates that some users encountered it immediately. One commenter said “4 Hydrogen” had replaced 3.8 Flash in the Gemini interface; another said the model was being served in Search and was “2.5x faster,” but the available excerpt contains no official performance, pricing, API, or rollout documentation to verify those points. Community reports also described a command-line account suspension and a subsequent appeal, leaving the extent and cause of that restriction unclear.
+Nvidia announced that Jensen Huang resigned as president, chief executive officer and a board member, effective immediately, without stating a reason. CFO Colette Kress became interim CEO while retaining her finance role, director Harvey C. Jones became board chair, and Nvidia began considering internal and external candidates for a permanent CEO. Nvidia said operations, customer commitments and the product roadmap would continue, but the succession process remained unresolved.
 
-hackernews · dvaplima · Nov 12, 18:01 · [Discussion](https://news.ycombinator.com/item?id=50471431)
+hackernews · lldb · Nov 12, 13:52 · [Discussion](https://news.ycombinator.com/item?id=50467087)
 
-**「Background」** Gemini 4 Hydrogen extends the Gemini line that Google expanded on September 2, 2026, with Gemini 3.8 Flash and Gemini 3.8 Flash Cyber. Google positions Hydrogen as a fast, cost-efficient model for reliable agentic workflows and everyday tasks.
+**「Context」** Huang co-founded Nvidia in 1993 and had served as CEO for 33 years, closely associating his leadership with the company&\#x27;s AI-chip strategy and a publicly disclosed roadmap through 2028. Before the departure, Nvidia&\#x27;s independent directors commissioned an outside-counsel investigation into whether Huang had been targeted by a foreign intelligence operation; the supplied material also reports personal-conduct allegations, but it does not establish why he resigned.
 
-**「Developer rollout and migration impact」** Gemini 4 Hydrogen is documented for coding and agentic workflows in the Gemini Enterprise Agent Platform and is being rolled out across Search and developer tools, so teams should verify which model their existing Gemini surface serves rather than assume 3.8 Flash remains the default. Before switching integrations, developers should check per-surface availability, pricing, and account restrictions; community members reported automatic replacement of 3.8 Flash and one command-line account suspension, although those experiences are not independently confirmed policy changes.
+**「Practical impact」** No immediate chip-supply or roadmap change was announced, so customers and developers should not infer one from Huang&\#x27;s departure alone. Kress&\#x27;s November 17 earnings results and the permanent-CEO search are the clearest checkpoints for strategic changes, while investors saw Nvidia shares fall 10% in premarket trading, indicating immediate uncertainty rather than a measured operational effect.
 
-**「Developer reactions」** Users questioned Google’s element-based naming as unhelpful for comparing related models and debated whether Hydrogen signals a more capable tier replacing the inexpensive 3.5 Flash Lite role. One commenter said Hydrogen matched the undiscounted 3.8 Flash price while costing more than prices commonly paid for 3.8 Flash and 3.5 Flash Lite, alongside a report of an unexplained CLI account restriction.
+**「Community reaction」** Commenters disagreed about the departure&\#x27;s cause: one argued that the reported affair was not the central issue and suspected that export-control compliance and national-security scrutiny mattered more, while others emphasized the importance of stability and public perception for the head of a highly visible AI company. These were user opinions and speculation, not findings established by Nvidia.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">Introducing Gemini 4 Hydrogen for Agentic Workflows</a></li>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/">Introducing Gemini 3.8 Flash and 3.8 Flash Cyber - The Keyword</a></li>
-<li><a href="https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/4-hydrogen">Gemini 4 Hydrogen | Gemini Enterprise Agent Platform | Google ...</a></li>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">Introducing Gemini 4 Hydrogen for Agentic Workflows</a></li>
-<li><a href="https://www.ai-generative.org/news/google-rolls-out-gemini-4-hydrogen-across-search-and-developer-tools">Gemini 4 Hydrogen Rolls Out: Access, Claims and API Costs ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Gemini 4`, `#Google AI`, `#large language models`, `#model serving`, `#developer access`
+**Tags**: `#ai-hardware`, `#ai-infrastructure`, `#nvidia`, `#leadership`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [Reported Anthropic IPO plan pairs fundraising with vast compute commitments](https://ipo.anthropic.com/us/) ⭐️ 9.0/10
+### [Google Introduces Gemini 4 Hydrogen and Orchestrator for Antigravity](https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/) ⭐️ 8.0/10
 
-A Hacker News submission describes an Anthropic IPO at $70–$78 per share, implying about $968 billion in market capitalization at a roughly $74 midpoint, alongside an $85.3 billion deal that includes a $26 billion private placement and the Nasdaq ticker “ANT.” According to a commenter summarizing the linked documents, Anthropic had $17.0 billion in Q3 2026 revenue and $900.9 billion in compute commitments through 2045. Because the item provides no source or filing text, these figures and the IPO’s status remain unverified claims rather than independently established facts.
+Google announced Gemini 4 Hydrogen, a model for the Antigravity AI development environment, and Orchestrator, an orchestration layer for coordinating multiple models in development workflows. The announcement is being discussed in terms of faster task execution and multi-model pipelines, but the supplied material does not include independent speed measurements, rollout conditions, or confirmed caching and pricing specifications.
 
-hackernews · josephljohnston · Nov 12, 11:46 · [Discussion](https://news.ycombinator.com/item?id=50465829)
+hackernews · jonbaer · Nov 12, 18:52 · [Discussion](https://news.ycombinator.com/item?id=50472260)
 
-**「IPO Filing Context」** Anthropic filed a Form S-1 with the U.S. Securities and Exchange Commission on October 26, 2026, seeking approval to make its proposed IPO of Class A common stock. Its updated filing planned to sell 825 million shares at $70–$78 each, with the IPO price set for November 18, while existing shareholders could participate in a separate sale of up to $64.4 billion.
+**「Background」** Gemini 4 Hydrogen is positioned as a fast, cost-efficient model for everyday coding and agentic work, while Orchestrator is the layer that automatically coordinates multiple Gemini models in Google Antigravity. Google says Carbon can offload routine steps to Hydrogen while maintaining “Carbon-level quality” with fewer tokens; Hydrogen also adds an “Extra” thinking tier alongside Low, Medium, and High.
 
-**「Compute spending drives IPO risk」** Anthropic&\#x27;s filed S-1 makes the reported IPO a test of investor tolerance for a loss-making, compute-intensive AI business: the filing reportedly shows an $80.7 billion loss, while coverage says investors have become more cautious about companies requiring large infrastructure spending. Prospective shareholders should therefore assess Anthropic&\#x27;s ability to finance future compute without eroding returns as a material risk; the available material identifies no Claude API, model-compatibility, or pricing change for users.
+**「Impact for Antigravity builders」** Antigravity builders should verify model names and cost assumptions before expanding workloads: one commenter reported seeing “4 Hydrogen” immediately replace “3.8 Flash,” while another questioned how cache hits and output tokens are billed during multi-model calls. Because Gemini pricing can vary with context tier, caching, grounding, and routing, teams using Orchestrator should measure actual usage in the applicable pricing calculator rather than assume that orchestration is cost-neutral.
 
-**「Debate Over Timing, Model Value, and Public Benefit」** One commenter argued that Anthropic should be able to delay an IPO and finance expansion through private rounds or cash flow if its models offered durable market dominance, while another expected cheaper and local models to erode demand for frontier APIs. Other commenters questioned whether Anthropic had a strong moat and whether employees and shareholders should benefit from a business they saw as extracting knowledge and displacing jobs; these are opinions, not established facts.
+**「Builder Reaction」** Commenters welcomed the prospect of a faster Flash-class option and reported seeing 3.8 Flash replaced by Hydrogen, while criticizing Argon and Carbon as slow and the element-based naming scheme as confusing. They compared Orchestrator with Anthropic’s advisor mode and GitHub’s HydraFusion pipeline, raised questions about how session caching would be billed, and claimed that Google models would receive a 2× price increase from January 1; one commenter also reported cancelling Antigravity with $20 in unused credit because an active subscription was required to use it.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://finance.yahoo.com/technology/ai/article/anthropic-ipo-what-we-know-143321078.html?fr=sycsrp_catchall">Everything you need to know ahead of Anthropic&#x27;s IPO</a></li>
-<li><a href="https://www.anthropic.com/news/s1-sec">Anthropic files S-1 with the SEC for proposed initial public ...</a></li>
-<li><a href="https://www.reuters.com/business/anthropic-ipo-raise-much-644-billion-latest-draft-prospectus-shows-2026-11-10/">Anthropic eyes $1.4 trillion IPO valuation in test of Wall ...</a></li>
-<li><a href="https://www.fxstreet.com/news/anthropic-ipo-filing-reveals-rapid-growth-as-investors-weigh-an-80-billion-loss-202610270748">Anthropic IPO filing reveals rapid growth as investors weigh an $80...</a></li>
-<li><a href="https://www.youtube.com/watch?v=6JujAGXBLgg">I Was Wrong About the Anthropic IPO - YouTube</a></li>
+<li><a href="https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/">Gemini 4 Hydrogen and Orchestrator | Google Antigravity Blog</a></li>
+<li><a href="https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/">Google announces Gemini 4 Hydrogen with ‘significant leaps&#x27;</a></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/">Introducing Gemini 4 Hydrogen for Agentic Workflows</a></li>
+<li><a href="https://www.aipricing.guru/blog/google-gemini-api-pricing-guide-2026/">Gemini API Pricing (2026): Models &amp; Calculator | AI Pricing Guru</a></li>
+<li><a href="https://www.cloudzero.com/blog/gemini-pricing/">Gemini pricing in 2026: models, plans, and thinking tokens</a></li>
+<li><a href="https://ourcodeworld.com/articles/read/4598/google-gemini-api-pricing-2026-flash-pro-and-the-costs">Google Gemini API Pricing 2026: Flash, Pro, and the Costs</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Anthropic`, `#AI industry`, `#IPO`, `#LLM infrastructure`, `#venture capital`
+**Tags**: `#ai-tools`, `#ai-coding`, `#agents`, `#product`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [Nvidia reportedly announces Jensen Huang’s CEO resignation](https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f) ⭐️ 8.0/10
+### [Apple Foundation Models framework adds on-device and cloud access](https://developer.apple.com/foundation-models-framework/) ⭐️ 8.0/10
 
-Nvidia reportedly announced that CEO Jensen Huang is resigning, with the transition drawing scrutiny of the company’s leadership, China exposure, and export-control compliance. The supplied material does not identify a successor or effective date, nor does it establish whether chip availability, product schedules, or export rules will change. Community allegations about Huang’s personal conduct and possible violations of US export restrictions on shipments to China are not substantiated by the supplied reporting.
+Apple’s Foundation Models framework gives iOS developers direct access to on-device foundation models and, for qualifying developers, inference through Private Cloud Compute without a separate cloud API charge. Eligibility details quoted in the discussion cover developers enrolled in the App Store Small Business Program with fewer than two million first-time App Store downloads, where Apple Intelligence is available; developers can test eligible apps through TestFlight or ad hoc distribution. The supplied material does not include independent benchmarks for model quality, latency, or performance against similarly sized models.
 
-hackernews · lldb · Nov 12, 13:52 · [Discussion](https://news.ycombinator.com/item?id=50467087)
+hackernews · kermatt · Nov 12, 21:13 · [Discussion](https://news.ycombinator.com/item?id=50474361)
 
-**「Context for Nvidia’s leadership change」** The immediate backdrop was national-security scrutiny of Huang: AP reported that an affair raised concerns, while other reporting said he had reportedly agreed to appear before Congress. Colette Kress was identified as interim CEO, with the transition occurring amid scrutiny of Nvidia’s China-related advanced-chip business and the U.S. export controls governing it.
+**「Framework evolution and prerequisites」** Apple’s WWDC2025 guidance focused on embedding on-device AI through Swift and required apps to check model availability, because Apple Intelligence may be unsupported, disabled, or unavailable on a given device. By WWDC2026, Apple documented a Private Cloud Compute model that is larger than the on-device models, supports reasoning, and provides a 32,000-token context window; it is the same model that powers several Apple Intelligence features.
 
-**「Impact on AI-chip availability」** Organizations purchasing Nvidia accelerators for China face greater supply-planning uncertainty: Reuters reported that lawmakers from both parties were pushing for tighter restrictions on advanced AI-chip access after Huang’s departure, while Bloomberg described the leadership change as removing a prominent opponent of US chip controls. Buyers should monitor the proposed policy changes rather than assume current access will remain unchanged; the reports describe increased pressure for tighter curbs, not an already enacted ban.
+**「Potential savings on cloud-model inference」** iOS developers can embed either Apple’s on-device foundation models or a Private Cloud Compute variant directly in their apps, with eligible App Store Small Business Program developers receiving server-side inference at no cost and potentially avoiding separate cloud-model API bills. Teams should confirm program eligibility, device and platform support, and their need for PCC’s enhanced capabilities and longer context windows before treating it as a universally available free replacement for hosted model APIs.
 
-**「Community debate」** Some commenters argued that alleged personal-conduct issues were probably not the reason for Huang’s departure and instead pointed to concerns that Nvidia had skirted US export bans on China shipments; that allegation remains unverified. Others emphasized that a prominent AI-chip CEO’s perceived stability is commercially important, making any credible PR problem a major risk even if misconduct is not proven.
+**「Community Discussion」** Discussion focused on the lack of independent comparisons with similarly sized models; one commenter described Apple’s on-device model as about 3B and asked how it performs against Gemma 4 E4B or Qwen 3.5 4B. Another user reported that Apple’s tooling was “surprisingly capable” at correcting errors and suggesting commands on an M1 with 8 GB of RAM, while a separate commenter noted that Anthropic had supported App Attest for hosted-model access for months.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://apnews.com/live/nvidia-ceo-jensen-huang-resignation-news-updates-11-12-2026">Nvidia CEO Jensen Huang resigns after affair | AP News</a></li>
-<li><a href="https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest?page=with:block-6af53b548f08bed8cbc53c06">Nvidia turmoil continues as Jensen Huang resigns ... | The Guardian</a></li>
-<li><a href="https://www.reuters.com/world/china/tougher-curbs-ai-chip-sales-china-likely-after-nvidia-ceo-resigns-2026-11-12/">Explainer: Tougher curbs on AI chip sales to China likely ...</a></li>
-<li><a href="https://www.bloomberg.com/news/articles/2026-11-13/jensen-huang-exit-sets-up-us-china-showdown-over-ai-chip-curbs">Jensen Huang Exit Sets Up US-China Showdown Over AI Chip ...</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2026/241/">What’s new in the Foundation Models framework ... - Apple Developer</a></li>
+<li><a href="https://developer.apple.com/videos/play/wwdc2025/259/">Code-along: Bring on - device AI to your app using... - Apple Developer</a></li>
+<li><a href="https://developer.apple.com/private-cloud-compute/">Private Cloud Compute - Apple Developer</a></li>
+<li><a href="https://developer.apple.com/documentation/foundationmodels">Foundation Models | Apple Developer Documentation</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Nvidia`, `#Jensen Huang`, `#AI chips`, `#semiconductors`, `#executive transition`
+**Tags**: `#ai-tools`, `#foundation-models`, `#ios-development`, `#private-cloud-compute`, `#product`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Rust 1.100: Never Type, Custom Allocators, and Cargo Controls](https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/) ⭐️ 8.0/10
+### [DTCC Plans Solana Addition for 2027 Tokenization Rollout](https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout) ⭐️ 8.0/10
 
-Rust 1.100 stabilizes the never type and custom allocators, while adding Cargo controls for dependency freshness and unused packages. The new minimum publish age setting—known as dependency cooldowns—causes the resolver to ignore versions published more recently than the configured threshold unless they are already recorded in Cargo.lock; Cargo also emits unused-dependency warnings, with \`cargo::unused\_dependencies\` set to \`warn\` by default. In addition, \`cargo install\` now uses an existing lockfile in the \`.crate\` tarball by default, so \`--locked\` becomes a no-op in that workflow.
+DTCC plans to add Solana to its Wall Street tokenization service, with a rollout targeted for 2027. The service went live in October 2026 on Canton and a private network, making Solana a planned addition rather than an available integration. The supplied report does not specify the integration’s scope, products, or execution schedule beyond the 2027 target.
 
-hackernews · mbStavola · Nov 12, 18:39 · [Discussion](https://news.ycombinator.com/item?id=50472038)
+rss · CoinDesk · Nov 12, 15:45
 
-**「Background」** Horizon’s October 15 digest reported that the Rust team had published Rust 1.99.1, the point release in the 1.99 series before Rust 1.100. The 1.100 announcement describes Cargo’s dependency cooldown as an opt-in minimum-publish-age policy configured in \`.cargo/config.toml\`, allowing projects to wait through a chosen interval before Cargo selects newly published crate versions.
+**「Earlier tokenization rollout」** DTCC’s Tokenization Service launched on October 28, 2026, initially supporting Canton Network with the CIP-56 standard and DTCC’s private Besu network with ERC-20 tokens. Its roadmap also anticipated Stellar via SEP-41 and Circle’s Arc in 2027, placing Solana within a staged multi-network expansion rather than the service’s initial launch.
 
-**「Safer Cargo dependency selection」** Teams using Cargo can configure Rust 1.100&\#x27;s minimum publish age so the resolver excludes recently published crate versions, reducing automatic exposure to fresh releases while exempting versions already recorded in Cargo.lock. Cargo also warns about unused dependencies by default, giving maintainers a concrete prompt to remove stale entries from Cargo.toml.
-
-**「Community Reactions」** Commenters praised the release, with one highlighting never-type stabilization, custom allocators, dependency cooldowns, and the \`cargo install\` lockfile change as personal favorites. Another said several stabilized APIs—including \`bool::toggle\(\)\`, \`Box::map\(\)\`, \`str::trim\_prefix\(\)\`, \`str::trim\_suffix\(\)\`, and \`Path::trim\_prefix\(\)\`—were not mentioned in the blog post, while a separate commenter asked about compiler speed and complained about 90 GB of temporary files; the discussion provides no performance measurement.
+**「Solana access remains forthcoming」** If DTCC’s targeted 2027 Solana rollout proceeds, market participants should gain another network for accessing DTC-tokenized assets, including tokenized stocks, ETFs, and U.S. Treasuries. Solana support is still planned rather than shipped—the live service operates on Canton and a private network—so institutions should wait for confirmed launch dates and compatible asset workflows before making Solana-dependent operational commitments.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/">Announcing Rust 1 . 100 .0 | Rust Blog</a></li>
-<li><a href="https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/">Announcing Rust 1 .99.1 | Rust Blog</a></li>
-<li><a href="https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/">Announcing Rust 1.100.0 | Rust Blog</a></li>
-<li><a href="https://vinish.dev/rust-1-100-never-type-allocator-api-cargo-cooldowns">Rust 1.100 Released: Never Type, Allocator API and Cargo ...</a></li>
+<li><a href="https://www.dtcc.com/products-and-services/digital-assets/tokenization">Tokenization Service | DTCC</a></li>
+<li><a href="https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-goes-live">DTCC Tokenization Service Goes Live</a></li>
+<li><a href="https://www.dtcc.com/press-releases/2026/dtcc-tokenization-service-to-connect-with-solana">DTCC Tokenization Service to Connect with Solana | DTCC</a></li>
+<li><a href="https://www.coindesk.com/business/2026/11/12/dtcc-adds-solana-to-wall-street-tokenization-plans-targeting-2027-rollout">Solana news: Wall Street giant DTCC to expand tokenization to ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Rust`, `#language features`, `#Cargo`, `#developer tooling`, `#dependency management`
+**Tags**: `#web3`, `#tokenization`, `#solana`, `#institutional-adoption`, `#finance-infrastructure`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [Microsoft 365 Outlook outage disrupts email for hours](https://status.cloud.microsoft/) ⭐️ 8.0/10
+### [Anthropic posts official U.S. IPO materials](https://ipo.anthropic.com/us/) ⭐️ 7.0/10
 
-A Microsoft 365 service degradation reportedly disrupted Outlook and email service for several hours. A Microsoft status update reposted in the discussion said an alternative health-check method had returned servers in part of the affected infrastructure to service and was being applied more broadly, while automated recovery was being prepared. The supplied material does not establish the root cause or the full scope, and users reported that Teams chat and meetings continued working while Azure infrastructure was largely unaffected.
+Anthropic has posted an official U.S. IPO site and offering materials, marking a shift from private funding toward a public listing rather than a new model or developer-platform release. A commenter who reviewed the linked documents reports a $70–$78 share-price range with a roughly $74 midpoint, an $85.3 billion gross deal size including a $26 billion private placement, an implied market capitalization of about $968 billion, the Nasdaq ticker “ANT,” and $900.9 billion in compute commitments through 2045; because the underlying filing text was not supplied, these terms remain the commenter’s account pending direct verification. The available item describes no shipped model, API, agent-coding, or workflow change, so its near-term effect on developers is not established.
 
-hackernews · dkpk · Nov 12, 18:20 · [Discussion](https://news.ycombinator.com/item?id=50471731)
+hackernews · josephljohnston · Nov 12, 11:46 · [Discussion](https://news.ycombinator.com/item?id=50465829)
 
-**「Operational context」** Microsoft 365 administrators track email availability through service-health notices and incident identifiers; Microsoft published this event under EX1550543 and MO1550821 and directed admins to the public status page if the admin center was inaccessible \(tool-2-3\). Reporting identified effects across Outlook, parts of Teams, and Microsoft 365 Copilot, with some disruption continuing into Friday morning in parts of Asia, but did not establish the incident as a general Azure-platform failure \(tool-2-1\).
+**「IPO filing context」** Anthropic’s reported IPO would proceed through the U.S. SEC registration process: EDGAR lists document accession 0001628280-26-072484 as a Form S-1/A, an amendment to the registration statement used for a public securities offering. The amendment indicates that an earlier filing was revised, but the EDGAR entry alone does not establish that the offering has been priced or completed.
 
-**「Operational impact」** Organizations dependent on Exchange Online and Outlook lost email access, while parts of Teams, SharePoint, and Copilot were also disrupted; small businesses were reported to have switched to alternative communication services. Affected administrators should maintain an out-of-band communication channel and verify recovery, because the disruption persisted into Friday morning in parts of Asia.
+**「Commercial pressure, not an integration change」** For developers, Anthropic’s IPO filing is a commercial and infrastructure event rather than a technical release: no model, agent-coding, workflow, or API-compatibility change is established, so existing integrations have no announced mandatory update. Forbes reports that the filing highlights Anthropic’s extensive data-center spending while competition from OpenAI and cheaper open-weight models could make its rapid growth harder to sustain; organizations using Anthropic should therefore retain alternative-model fallbacks and monitor pricing and capacity rather than depend on a single frontier-model provider indefinitely.
 
-**「Community reactions」** Former Microsoft employee AbbeFaria cautioned that Microsoft 365 uses dedicated deployment pipelines and can take weeks to roll out changes, limiting conclusions that might be drawn from experience with the older Exchange delivery infrastructure. Some commenters attributed broader service problems to Microsoft prioritizing AI over reliability, but that was an opinion rather than an established explanation for this outage.
+**「Necessity, dilution, and model moat」** Commenters disagreed over whether an IPO is necessary and whether Anthropic has a durable moat: one argued that the company needs roughly $100 billion now despite dilution, while others said cheaper models and increasingly capable local models could handle most workloads and weaken demand for frontier systems. These are strategic opinions rather than measured evidence, and the discussion does not establish how the reported compute commitment would affect model capacity, pricing, or API availability.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://gulfbusiness.com/en/2026/tech/microsoft-365-outage-disrupts-outlook-teams-and-copilot-worldwide/">Microsoft 365 outage disrupts Outlook , Teams and Copilot worldwide</a></li>
-<li><a href="https://mashable.com/tech/microsoft-outlook-outage-cause-revealed-nov-12-2026">Microsoft Outlook outage cause : What happened today | Mashable</a></li>
-<li><a href="https://gulfbusiness.com/en/2026/tech/microsoft-365-outage-disrupts-outlook-teams-and-copilot-worldwide/">Microsoft 365 outage disrupts Outlook , Teams and Copilot worldwide</a></li>
-<li><a href="https://edition.cnn.com/2026/11/12/tech/microsoft-outage-cripples-office-workers-nationwide">Massive Microsoft outage disrupts businesses , schools and...</a></li>
+<li><a href="https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/0001628280-26-072484-index.htm">EDGAR Filing Documents for 0001628280-26-072484 - SEC.gov</a></li>
+<li><a href="https://www.forbes.com/sites/giacomotognini/2026/10/26/anthropics-ipo-filing-reveals-the-scale-of-its-ai-infrastructure-spending/">Anthropic&#x27;s IPO Filing Reveals Massive Scale Of Data Center ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Microsoft 365`, `#cloud outage`, `#email infrastructure`, `#service reliability`, `#sysadmin`
+**Tags**: `#ai-tools`, `#anthropic`, `#capital-markets`, `#ai-competition`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [CVE-2026-6460 chains PostgreSQL type confusion into RCE](https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/) ⭐️ 8.0/10
+### [Smolmaxxing Claims 16B LLMs on Sub-1GB Devices](https://github.com/hyperionaidev/smolmaxxing/) ⭐️ 7.0/10
 
-The post presents CVE-2026-6460, an exploit chain that turns a 22-year-old PostgreSQL type-confusion primitive into code execution. The sequence prepares a statement against a table, changes the schema, and reuses the statement while it retains stale type information, allowing type confusion to be chained into RCE. As described, the chain begins with database-level access rather than an unauthenticated request, making it particularly relevant to multi-tenant isolation and privilege-boundary risks.
+The open-source Smolmaxxing project claims to have run 16B-parameter language models on a first-generation iPad Air and a Xiaomi TV box, each with less than 1GB of usable memory. The author is releasing the custom kernels, modified models, and results for reproduction, but the supplied material contains no detailed benchmarks or independent performance measurements.
 
-hackernews · ozirus · Nov 12, 18:22 · [Discussion](https://news.ycombinator.com/item?id=50471761)
+hackernews · mrashad74 · Nov 12, 15:23 · [Discussion](https://news.ycombinator.com/item?id=50468888)
 
-**「How the PostgreSQL type confusion works」** PostgreSQL prepared statements can retain type information tied to a composite row type, so changing an attribute’s type with ALTER ... SET DATA TYPE can leave a reused execution path expecting the old representation. In that case, the original raw bytes may reach the altered type’s output function, allowing an object creator to execute arbitrary code as the operating-system user running the database, according to the CVE-2026-6460 advisory.
+**「Running LLMs within a memory budget」** The key constraint is fitting a useful model into less than 1 GB of usable RAM: weight streaming can draw weights from storage instead of requiring the whole model to remain in memory, while a 16B-parameter mixture-of-experts model routes each token through only a subset of experts. The smolmaxxing project combines those approaches with custom kernels and tighter memory management for old hardware such as a first-generation iPad Air and a Xiaomi TV box.
 
-**「Privilege-boundary risk」** CVE-2026-6460 lets an authenticated PostgreSQL user with object-creation privileges execute arbitrary code under the operating-system account running the database service, so it is a privilege-escalation risk for multi-tenant deployments and other environments that separate database roles from host access. Red Hat rates the vulnerability Important and stresses that exploitation requires prior database authentication and DDL permissions; defenders should prioritize applying the vendor fix and restricting object-creation and DDL privileges for untrusted users.
+**「Practical impact」** smolmaxxing gives developers a reproducible path to test 16B-parameter local inference on devices with about 1 GB of usable memory, using custom kernels, flash-based expert paging, and weight streaming on hardware such as Android TV boxes and old iPads. Because the reported speeds are largely author-provided rather than backed by detailed independent benchmarks, teams should reproduce the tests on their exact device and workload and check latency, memory pressure, and output quality before deployment.
 
-**「Readers question the RCE framing」** Commenters logophobia and jmuguy argued that requiring an authenticated database account makes this look more like privilege escalation to host-level execution than conventional remote code exploitation. ahartmetz summarized the core behavior as creating a prepared statement, changing the table, and then executing the statement with stale state, though that characterization came from a reader rather than an independent verification.
+**「Questions About Novelty and Practical Value」** One commenter argued that modern agents could already perform comparable inference-related tasks through one-shot prompting, challenging the project&\#x27;s novelty; another welcomed the optimization trend while questioning whether models this constrained are useful for practical work. The author said they were looking for a more challenging device on which to test the project.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.postgresql.org/support/security/CVE-2026-6460/">PostgreSQL: CVE-2026-6460: PostgreSQL type confusion after ...</a></li>
-<li><a href="https://daily.dev/posts/22-year-old-postgresql-bug-turned-into-remote-code-execution-7c9ad9krz">22-Year-Old PostgreSQL Bug Turned into Remote Code Execution</a></li>
-<li><a href="https://www.postgresql.org/support/security/CVE-2026-6460/">PostgreSQL: CVE-2026-6460: PostgreSQL type confusion after ...</a></li>
-<li><a href="https://access.redhat.com/security/cve/cve-2026-6460">CVE-2026-6460 - Red Hat Customer Portal</a></li>
+<li><a href="https://github.com/hyperionaidev/smolmaxxing">GitHub - hyperionaidev/smolmaxxing: maxxing the ability to ...</a></li>
+<li><a href="https://braindetox.kr/en/posts/smolmaxxing_llm_old_devices.html">smolmaxxing Old-Device LLM Results - 16B Models on 1 GB TV ...</a></li>
+<li><a href="https://o-server.main.jp/hacker-news/en/articles/2026/11/13/smolmaxxing-enables-16b-parameter-models-on-2013-ipad-air-and-tv-50468888.html">Smolmaxxing Enables 16B Parameter Models on 2013 iPad Air and ...</a></li>
+<li><a href="https://github.com/hyperionaidev/smolmaxxing">GitHub - hyperionaidev/smolmaxxing: maxxing the ability to ...</a></li>
+<li><a href="https://braindetox.kr/en/posts/smolmaxxing_llm_old_devices.html">smolmaxxing Old-Device LLM Results - 16B Models on 1 GB TV ...</a></li>
+<li><a href="https://aitodaybrief.com/en/news/local-llms/running-16b-language-models-on-1gb-edge-devices-via-smolmaxxing">Running 16B Language Models on 1GB Edge Devices via Smolmaxxing</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#PostgreSQL`, `#type confusion`, `#remote code execution`, `#vulnerability research`, `#privilege escalation`
+**Tags**: `#ai-tools`, `#edge-ai`, `#local-llms`, `#open-source`
 
 ---
 
 <a id="item-tech-news-7"></a>
-### [AMD Zen 6 Tradeoffs in Mike Clark’s Deep Dive](https://chipsandcheese.com/p/talking-zen-6-with-mike-clark-at) ⭐️ 8.0/10
+### [Replicate Converts Webflow or Framer Apps for Claude or Codex](https://www.producthunt.com/products/replicate-10) ⭐️ 7.0/10
 
-An in-depth conversation with AMD CPU designer Mike Clark examines Zen 6 architecture and design tradeoffs for performance and systems engineers. The discussion describes dense Zen 6c as the higher-IPC variant, with a commenter citing 4 MB of L3 per core, while a more conventional design targets higher clock speeds. Both variants are said to share software optimizations, avoiding a separate optimization path for developers; the item presents architectural claims from the interview rather than shipped-product specifications or independent performance measurements.
+Replicate is listed on Product Hunt as a free tool that turns a Webflow or Framer app into a Claude or Codex project. The listing provides no technical details about supported plans, export formats, code quality, compatibility, or long-term pricing, so the advertised workflow is a vendor claim rather than an independently verified capability.
 
-hackernews · dverlaeckt80 · Nov 12, 14:12 · [Discussion](https://news.ycombinator.com/item?id=50467460)
+rss · Product Hunt · Nov 13, 02:06
 
-**「Zen 6c’s product-line lineage」** AMD’s standard Zen 6 and dense Zen 6c split follows the density-oriented approach introduced with 2023’s Bergamo EPYC, which combined 128 compact Zen 4c cores across eight chiplets. In the Zen 6 design direction discussed by AMD’s Mike Clark, standard Zen 6 is the frequency-optimized branch, while Zen 6c continues the high-density branch.
+**「Background」** Website-builder migrations involve more than copying visual layouts because projects may depend on image CDNs, CMS-specific data models, and minified JavaScript. Replicate positions its converter around that gap, claiming it can turn Webflow, Framer, or other website-builder projects into a Next.js app with “1:1 parity”; that parity remains a vendor claim rather than an independently documented result.
 
-**「Zen 6 variants require workload-specific testing」** On now-shipping EPYC 9006 “Venice” systems, which reach 256 Zen 6\(C\) cores per socket and 512 cores in a two-socket configuration, dense Zen 6c and the higher-frequency variant should be treated as distinct performance targets: the dense part is reported to prioritize IPC with 4 MB of L3 per core. Application teams can retain the same software-optimization path for both, but performance engineers should benchmark SMT, core placement, and clock-sensitive workloads on the exact SKU rather than assume the dense variant wins everywhere.
-
-**「Reader Reactions」** Commenters valued the rare opportunity to hear a CPU designer discuss implementation details in depth. One reader highlighted the unexpected inversion of Zen 6c into the higher-IPC role and viewed the shared software optimizations as evidence that developers would not face a separate Zen 6c-specific path.
+**「Potential Handoff to AI Coding Tools」** The intended benefit is to let designers carry an existing Webflow or Framer implementation into an AI-assisted Claude or Codex workflow instead of recreating it manually. Users should first confirm which app features and account tiers are supported, since the listing does not explain how faithfully the generated project preserves the source design.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.youtube.com/watch?v=AdyPoLBp4No">AMD In-Depth: Talking Zen 6 with Mike Clark - YouTube Talking Zen 6 with Mike Clark at AMD In-Depth Talking Zen 6 with Mike Clark at AMD In-Depth | Apex Neural ... AMD In Depth 2026: Venice Makes Its Case on the Power Budget AMD winds up Zen 6 cores for faster clock speeds - The Register</a></li>
-<li><a href="https://www.phoronix.com/review/amd-epyc-zen6-smt">AMD Zen 6 SMT Proves Very Advantageous Even For 256... - Phoronix</a></li>
-<li><a href="https://www.youtube.com/watch?v=AdyPoLBp4No">Talking Zen 6 with Mike Clark at AMD In-Depth - YouTube</a></li>
+<li><a href="https://www.youtube.com/watch?v=E9TBLmsSq7g">Easily Migrate ANY Webflow Site To Code (Claude Code &amp; Vercel) Framer: How to migrate from Webflow to Framer Replicate：将Webflow/Framer项目免费转化为Claude/Codex项目 Webflow meets Claude: Design, structure, and manage sites ... Transform Framer Projects With Claude&#x27;s Code Generation Claude Design to Webflow Converter | Flowboard Building Websites with Claude Code - leonfurze.com</a></li>
+<li><a href="https://www.producthunt.com.cn/replicate-3/">Replicate：将Webflow/Framer项目免费转化为Claude/Codex项目</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AMD Zen 6`, `#CPU architecture`, `#Zen 6c`, `#IPC`, `#hardware engineering`
+**Tags**: `#ai-tools`, `#vibecoding`, `#ai-coding`, `#product`
 
 ---
 
 <a id="item-tech-news-8"></a>
-### [UMAP 0.6 Adds Faster Search and New Optimizers](https://www.reddit.com/r/MachineLearning/comments/1xudaah/umap_06_new_initialization_new_optimizers_and/) ⭐️ 8.0/10
+### [Adding context, memory, streaming, and tracing to LangChain agents](https://www.woshipm.com/ai/6493390.html) ⭐️ 7.0/10
 
-UMAP 0.6 is available from PyPI with \`pip install -U umap-learn\` and from conda-forge, introducing faster PyNNDescent-backed nearest-neighbor search, recursive UMAP-based initialization, and new hard-negative-mining optimizers. The maintainer reports roughly 4× faster neighbor search and says fixed-seed runs are reproducible while using every CPU core; on a 3-million-paper arXiv dataset, UMAP 0.6 reportedly finished in under five minutes, while a seeded, single-threaded UMAP 0.5 run took 52 minutes. The release is also claimed to resolve finer cluster structure and improve neighborhood accuracy on million-scale datasets by supporting higher repulsion strengths and reaching the final layout in fewer epochs, although the announcement provides no detailed benchmark methodology or independent validation. The new initialization and optimizers are currently opt-in and require \`compatibility\_layout=False\`; the author says future versions will make them the default.
+The article demonstrates how to extend a LangChain after-sales agent with runtime user context, cross-session memory, streamed progress, and LangSmith observability. Its examples use \`context\_schema=UserContext\` and \`ToolRuntime\[UserContext\]\` to pass an application-supplied \`user\_id\` to tools without having the model generate identity data, while \`InMemoryStore\` and \`InMemorySaver\` separately store user preferences and per-\`thread\_id\` conversation state. The agent can consume \`stream\_mode\` values including \`messages\`, \`updates\`, and \`custom\` with \`version=&quot;v2&quot;\` to receive model chunks, tool-call status, and \`runtime.stream\_writer\` progress messages; production deployments should derive context from verified server-side identity, enforce authorization in tools, and replace the process-local memory implementations with persistent backends if data must survive restarts.
 
-reddit · r/MachineLearning · /u/lmcinnes · Nov 12, 13:51
+rss · 人人都是产品经理 · Nov 13, 06:42
 
-**「Earlier UMAP Pipeline」** UMAP 0.5 already depended on PyNNDescent for nearest-neighbor search and supported parallel neighbor search and layout optimization. In 0.6, the new initialization and optimizer path is opt-in via \`compatibility\_layout=False\`; the project documentation says it can use RINND automatically for datasets of 4,096 samples or more when installed and compatible with the input.
+**「Production Prerequisite」** The guide extends a LangChain after-sales agent that already had model-driven tools, conversational state, middleware, human confirmation, and structured output, adding the runtime capabilities needed for a logged-in business application. \`ToolRuntime.context\` supplies request-scoped user or business data without asking the model to invent it; a checkpointer retains thread state, while a Store holds explicitly saved cross-session preferences, and LangChain streaming can separately expose model chunks, agent and tool updates, and custom progress messages.
 
-**「Practical impact」** For teams embedding million-row datasets, the release author reports that UMAP 0.6 completes a 3-million-paper arXiv example in under five minutes, compared with 52 minutes for a seeded, single-threaded UMAP 0.5 run, and that fixed-seed runs can use every core. The new initialization and optimizers are enabled with \`compatibility\_layout=False\`, change the resulting layout, and are planned to become defaults, so users should set the option explicitly and compare new embeddings and downstream results before upgrading; the performance figures are vendor-reported rather than independently validated.
+**「Production integration requirements」** For teams moving a LangChain after-sales agent into production, the demonstrated design lets the application supply a server-verified user ID through runtime context, show tool-progress messages during streaming calls, and inspect failed agent runs through LangSmith traces. Before deployment, developers must replace the sample InMemoryStore and InMemorySaver with durable backends if preferences or sessions must survive restarts, while tools or backend APIs must continue enforcing authorization against the verified user identity.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/lmcinnes/umap">GitHub - lmcinnes/ umap : Uniform Manifold Approximation and...</a></li>
-<li><a href="https://umap-learn.readthedocs.io/en/latest/release_notes.html">Release Notes — umap 0 .5.8 documentation</a></li>
+<li><a href="https://docs.langchain.com/oss/python/langchain/runtime">Runtime - Docs by LangChain</a></li>
+<li><a href="https://docs.langchain.com/oss/python/langchain/streaming">Streaming - Docs by LangChain</a></li>
+<li><a href="https://docs.langchain.com/oss/python/langchain/tools">Tools - Docs by LangChain</a></li>
+<li><a href="https://docs.langchain.com/langsmith/observability">LangSmith Observability - Docs by LangChain</a></li>
+<li><a href="https://docs.langchain.com/oss/javascript/deepagents/going-to-production">Going to production - Docs by LangChain</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#UMAP`, `#dimensionality-reduction`, `#machine-learning`, `#PyNNDescent`, `#performance-optimization`
+**Tags**: `#ai-tools`, `#ai-agents`, `#product`, `#engineering`
 
 ---
 
 <a id="item-tech-news-9"></a>
-### [Apple Foundation Models framework for Swift apps](https://developer.apple.com/foundation-models-framework/) ⭐️ 7.0/10
+### [NYSE Selects Avalanche for Planned 24/7 Tokenized-Stock Platform](https://www.theblock.co/newsletters/tokenization-briefing/2026-11-12-avalanche-owns-five-percent-tokenized-stocks-437310) ⭐️ 7.0/10
 
-Apple&\#x27;s Foundation Models framework provides native Swift tooling for integrating foundation models into apps, including eligible access to Apple&\#x27;s Foundation Models running on Private Cloud Compute. A commenter quotes terms under which developers enrolled in the App Store Small Business Program with fewer than two million first-time App Store downloads can use the Private Cloud Compute service with no cloud API cost, provided Apple Intelligence is available and App Store, TestFlight, or ad hoc distribution requirements are met. The supplied material does not identify a newly added API or version, and one commenter explicitly asks whether the listing reflects an update rather than a new launch.
+NYSE selected Avalanche as the sole settlement chain for a planned 24/7 tokenized-stock platform, according to The Block&\#x27;s report citing The Wall Street Journal. This is a planned deployment rather than a shipped platform, and the provided excerpt does not substantiate the headline&\#x27;s claim that Avalanche holds 5% of tokenized stocks. Separately, $CNTN became the first U.S. equity to trade under an SEC Innovation Exemption on November 4, but the excerpt does not connect that milestone to Avalanche or the planned NYSE platform.
 
-hackernews · kermatt · Nov 12, 21:13 · [Discussion](https://news.ycombinator.com/item?id=50474361)
+rss · The Block · Nov 12, 20:02
 
-**「Framework context」** The Foundation Models framework is Apple&\#x27;s native Swift API for connecting apps to large language models, including Apple Foundation Models running on-device or in Private Cloud Compute. It serves as the integration layer for adding those model capabilities to an app rather than announcing a standalone model; the supplied material does not establish a new launch or a specific API change.
+**「Launch Context」** Three U.S. tokenized-stock venues selected three different blockchains to launch on during the same week, making each venue&\#x27;s settlement network a distinct integration requirement. The $CNTN Innovation Exemption trade was a separate regulatory milestone and should not be treated as evidence of Avalanche&\#x27;s market share.
 
-**「Developer integration impact」** For iOS and Apple-silicon developers, the framework provides a native Swift/CoreAI integration path for foundation-model inference across Apple’s on-device model, eligible Private Cloud Compute, and compatible third-party providers. Developers adapting open-weight models should test their packaging and resource requirements before shipping: Apple’s CoreAI tooling requires tokenizers for language models and notes that some models need additional resources.
+**「Integration Impact」** Organizations integrating with the planned NYSE platform would need to support Avalanche for settlement, while platforms serving all three venues may need chain-specific deployments. The excerpt provides no launch date, shipped compatibility details, or implementation requirements.
 
-**「Developer reactions」** Commenters said Apple&\#x27;s Core AI work appears to be flying under the radar, pointing to the coreai-models repository&\#x27;s adaptations of open-weight models for native Swift use. One user reported that a local Swift AI tool corrected errors and suggested commands capably on an M1 with 8 GB RAM, while another noted that Anthropic&\#x27;s Claude had already supported App Attest for months; these are user reports rather than independently measured results.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://developer.apple.com/foundation-models-framework/">Foundation Models framework - Apple Developer</a></li>
-<li><a href="https://developer.apple.com/documentation/coreai">Core AI | Apple Developer Documentation</a></li>
-<li><a href="https://byteiota.com/apple-foundation-models-coreai-wwdc26/">Apple Foundation Models at WWDC26: One API, Any LLM | byteiota</a></li>
-<li><a href="https://github.com/apple/coreai-models">GitHub - apple / coreai - models : Model export recipes, Python...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#apple-foundation-models`, `#ios-development`, `#on-device-ai`, `#swift`, `#private-cloud-compute`
+**Tags**: `#web3`, `#tokenization`, `#avalanche`, `#product`, `#regulation`
 
 ---
 
 <a id="item-tech-news-10"></a>
-### [Edge0 Announces 145B Local Model With 29GB Peak Memory](https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer) ⭐️ 7.0/10
+### [VisaNet adds USDPT as a settlement asset](https://www.theblock.co/news/business/2026-11-12-visa-adds-western-unions-usdpt-stablecoin-to-its-settlement-network-in-anchorage-tie-up-438520) ⭐️ 7.0/10
 
-Edge0 announced Edge0-145B, a 145B-parameter expert model that uses shared matrices to reduce its reported peak memory requirement to roughly 29GB. The vendor says it can perform frontier-scale inference and tool use on compatible personal computers, including high-end laptops such as a MacBook Pro, but independent benchmarks and evidence of the models’ real-world usability remain limited.
+Visa and Anchorage Digital will support select Anchorage-issued stablecoins as settlement assets on VisaNet, starting with Western Union’s USDPT. Eligible Visa participants and companies can now use USDPT—issued and custodied by the federally chartered Anchorage Digital Bank—to settle VisaNet obligations. The announcement does not specify eligibility rules, rollout timing, supported jurisdictions, fees, or availability beyond selected participants, so it does not establish universal or consumer-facing availability.
 
-hackernews · sroussey · Nov 12, 23:06 · [Discussion](https://news.ycombinator.com/item?id=50475713)
+rss · The Block · Nov 12, 16:00
 
-**「Local-inference memory requirements」** Edge0 says its mixture-of-experts design stores common matrices once while smaller expert-specific parameters capture their differences, reducing the memory needed to keep a nominal 145B-parameter model locally available. Its roughly 29GB peak-memory requirement makes high-capacity unified memory the key compatibility constraint; for context, Apple lists a tested 14-inch MacBook Pro configuration with 32GB of unified memory and a 1TB SSD.
+**「Settlement context」** VisaNet is the network through which eligible participants settle obligations, so USDPT’s role here is as a settlement asset rather than simply a consumer payment method. Anchorage Digital Bank issues and custodies the dollar-pegged token under OCC supervision, while Western Union is associated with the USDPT product.
 
-**「A high-end hardware target」** Matrix sharing could make the announced 145B-parameter model practical on compatible high-end laptops, but the reported peak memory use of roughly 29GB still excludes many PCs with 16GB of RAM. Developers should verify hardware compatibility and obtain independent speed and output-quality measurements before using it for production tool workflows.
-
-**「Community Discussion」** One commenter called the 29GB footprint impressive and praised the Blender demonstrations, while others questioned whether typical users own compatible hardware and whether extensive human cleanup of agent-generated work would erase any time savings. A separate commenter speculated that Edge0-145B was a quantized derivative of “3.8 Next Flash” running on Strata, although the supplied source does not establish that provenance.
+**「Settlement flexibility for eligible firms」** Eligible Visa partners and businesses can now settle VisaNet obligations with Western Union’s USDPT, giving them a stablecoin-denominated option for meeting Visa network payment obligations. The option is not universal: access is limited to eligible companies and begins with USDPT, so businesses should confirm eligibility and supported assets before relying on it.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.apple.com/macbook-pro/">MacBook Pro - Apple</a></li>
+<li><a href="https://bingx.com/en/flash-news/post/visa-opens-visanet-settlement-to-anchorage-s-usdpt-stablecoin">Visa Opens VisaNet Settlement to Anchorage &#x27;s USDPT Stablecoin</a></li>
+<li><a href="https://bingx.com/en/flash-news/post/visa-adds-western-union-usdpt-stablecoin-to-visanet-settlement">Visa Adds Western Union USDPT Stablecoin to VisaNet Settlement</a></li>
+<li><a href="https://www.binance.com/en/square/post/387518306793434">Anchorage Digital and Visa Partner to Enable USDPT Settlements ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#local AI`, `#model compression`, `#inference optimization`, `#mixture-of-experts`, `#AI tool use`
+**Tags**: `#web3`, `#stablecoins`, `#payments`, `#fintech`
 
 ---
 
 <a id="item-tech-news-11"></a>
-### [Audit finds TRIBE v2 reproduces motion, not topographic maps](https://www.reddit.com/r/MachineLearning/comments/1xuillf/does_metas_brainresponse_model_tribe_v2_actually/) ⭐️ 7.0/10
+### [Securitize and Ethena Launch $100M BUIDL Liquidity Facility](https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442) ⭐️ 7.0/10
 
-A solo, self-funded audit reports that Meta&\#x27;s TRIBE v2, which predicts fMRI from video, audio, and text, reproduces sharp motion selectivity in MT+ \(d=4.31, reported as 52× enrichment over chance\) but not retinotopy \(d=0.05, not significant\) or tonotopy \(ρ=-0.07, not significant, even with loudness controlled\). After validation against a synthetic ground-truth control, the author found that an apparent eccentricity effect changed under three stimulus-geometry controls, suggesting stimulus statistics rather than reliable position information. According to the author, TRIBE v2&\#x27;s paper did not test these classic topographic maps and spatially averages video features before prediction. The findings remain unreviewed and lack independent replication in the supplied material.
+Securitize and Ethena Labs launched a $100 million liquidity facility for BlackRock’s BUIDL tokenized fund. Eligible BUIDL holders can exchange the token for USDC and other stablecoins around the clock. The supplied report does not specify eligibility rules, exchange fees, participating stablecoins, or how much of the facility has been used.
 
-reddit · r/MachineLearning · /u/Own\_Tank1283 · Nov 12, 17:16
+rss · The Block · Nov 12, 14:00
 
-**「What TRIBE v2 predicts」** TRIBE v2 is a multimodal brain-response model designed to predict cortical activity from video, audio, and text; one technical overview describes its training data as 451 hours of fMRI recordings. Topographic-map tests ask a narrower question—whether responses preserve retinotopic, tonotopic, or motion-selective organization—so they require dedicated mapping stimuli and controls for spatial averaging and stimulus geometry.
+**「Tokenized Fund Liquidity」** A thirdweb analysis frames the problem as a liquidity-layer issue for tokenized real-world assets: holders need a way to move between a tokenized fund and stablecoins around the clock. The arrangement is reported as $100 million overall, with an initial $50 million split evenly between BUIDL and USDC and another $50 million available within an hour if used.
 
-**「Validation needed for topographic claims」** Researchers using TRIBE v2 as a surrogate for regional fMRI responses should not infer valid spatial or frequency maps from its default outputs: this audit found strong MT+ motion selectivity but no significant retinotopy or tonotopy, while the apparent eccentricity signal changed under stimulus-geometry controls. Although TRIBE v2 has been reported to exhibit ICA-level functional networks, including auditory and motion networks, that does not establish finer topographic organization; users should test any such use with mapping stimuli, a synthetic ground-truth check, and geometry controls. Because these findings come from an unreviewed solo project without independent replication, they justify additional validation rather than proving that the model universally cannot recover retinotopy or tonotopy.
+**「More continuous liquidity for BUIDL holders」** Eligible BUIDL holders can now exchange fund shares for supported stablecoins, including USDC, 24/7 rather than waiting for traditional market hours. The facility provides up to $100 million in liquidity capacity, offering a more continuous route from tokenized fund exposure into stablecoins, though eligibility requirements and pricing mechanics are not detailed in the supplied sources.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.adwaitx.com/meta-tribe-v2-brain-predictive-foundation-model/">Meta TRIBE v 2 Predicts Brain Activity with 70x Higher Resolution</a></li>
-<li><a href="https://www.therundown.ai/tools/tribe-v2">TRIBE v 2 : Model , License, Setup &amp; Alternatives</a></li>
-<li><a href="https://www.marktechpost.com/2026/03/26/meta-releases-tribe-v2-a-brain-encoding-model-that-predicts-fmri-responses-across-video-audio-and-text-stimuli/">Meta Releases TRIBE v 2 : A Brain Encoding Model ... - MarkTechPost</a></li>
+<li><a href="https://bingx.com/en/flash-news/post/securitize-and-ethena-launch-m-round-the-clock-liquidity-tool-for-blackrock-buidl">Securitize and Ethena Launch $ 100 M Round the Clock Liquidity Tool...</a></li>
+<li><a href="https://blog.thirdweb.com/blackrock-ethena-usde-aladdin-defi-builders/">BlackRock Adds USDe: DeFi&#x27;s Institutional Moment</a></li>
+<li><a href="https://investors.securitize.io/news/news-details/2026/Securitize-and-Ethena-Launch-100-Million-Liquidity-Facility-for-BlackRocks-BUIDL/default.aspx">Securitize - Securitize and Ethena Launch $100 Million ...</a></li>
+<li><a href="https://www.theblock.co/news/ecosystems/2026-11-12-securitize-ethena-buidl-liquidity-facility-live-usdc-438442">Securitize and Ethena&#x27;s $100 million BlackRock BUIDL ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#TRIBE v2`, `#fMRI mapping`, `#neural decoding`, `#model evaluation`, `#computational neuroscience`
+**Tags**: `#web3`, `#tokenized-rwa`, `#stablecoins`, `#defi`
+
+---
+
+## Technology Blog
+
+<a id="item-tech-blog-1"></a>
+### [Variational’s Single-Dealer Bet Goes Public](https://www.bankless.com/read/variationals-broker-bet-goes-public) ⭐️ 8.0/10
+
+rss · Bankless · Nov 12, 18:59
+
+**「Background」** After an invite-only beta showed strong early traction, Variational opened Omni to the public, shifting the test from product demand to the durability of its unusual broker-like design. The central question is whether an onchain venue can maintain competitive pricing when every trade is quoted by one dealer rather than an open order book.
+
+**「Solution」** Omni uses a request-for-quote model: a team-seeded vault called the Omni Liquidity Provider is the sole market maker, quotes every trade, hedges exposure elsewhere, and earns the spread; there are no trading fees, but the protocol keeps 20% of OLP collections. Volume rose from about $34 billion in September to $66.4 billion over 30 days, including $2.2 billion in 24 hours, while dealer-sourced TradFi swaps grew to more than 60% of activity. The Nasdaq-100 swap drew $595 million in a day versus $458 million for BTC, and an Alea Research estimate, partly based on team disclosures, put Q3 spreads at 2.35 basis points, close to Hyperliquid’s estimated 2.40-basis-point average perp fee. Collateral is isolated in per-user settlement pools and OLP hedges with its own money, but OLP insolvency could strand profits as bad debt, its hedging book is not publicly auditable, and a single quote faces no competitive undercutting. Variational still must deliver a public API and $VAR utility and buyback details; the proposed token case rests on directing treasury revenue into buybacks and burns, while weaker points accrual, U.S. and Canadian exclusion, and unresolved stock-perp regulation add uncertainty.
+
+**「Takeaway」** The public launch supports the author’s view that traders want TradFi exposure onchain, but sustainable scale depends on preserving tight spreads and quote quality through selloffs, failures, and competition from multi-dealer venues.
+
+**Tags**: `#web3`, `#defi`, `#product`, `#trading`, `#tokenomics`
+
+---
+
+<a id="item-tech-blog-2"></a>
+### [ArtCraft Uses Agents to Rebuild Open-Source Software](https://latent.space/p/artcraft/) ⭐️ 7.0/10
+
+rss · Latent Space · Nov 13, 04:17
+
+**「Background」** At the AI Engineer Code Summit, ArtCraft founder Brandon Thomas argued that Web 2.0 replaced the early web’s creative freedom with rented software and gatekept distribution, so he began rebuilding familiar applications as open-source tools, starting with the Rust-based PhotoCraft alternative to Photoshop.
+
+**「Solution」** ArtCraft has released 17 official apps, including PdfCraft, a Figma-like tool, WordCraft, and the community CAD project SolidCraft. PhotoCraft began with a large AI prompt specifying Photoshop’s tools, data structures, and file importers, followed by MCP and CLI compatibility; Thomas said a credible approximation appeared within 24 hours, although he put parity just above 60% and PhotoCraft’s GitHub reports about 76% feature breadth and 46% professional readiness. Rust was chosen for native performance, with Thomas claiming tenfold faster startup than Photoshop, although neither that nor the reported 1.7 million daily downloads and 4,000 developers was independently verified in the event report. Thomas’s team uses agents for relatively immutable desktop apps and games but reserves backend architecture, API design, and schema migrations for humans; permissions, GitHub, scaling, and failing CI also required self-hosted infrastructure, while planned AutoCraft aims to open-source this agent-driven factory model.
+
+**「Takeaway」** MacManus’s most persuasive point is that agents can move most application construction into the hands of a human community while people retain consequential design decisions, but ArtCraft’s claims of near-Photoshop parity, exceptional performance, mass adoption, and Linux-scale potential remain unproven.
+
+**Tags**: `#ai-tools`, `#vibecoding`, `#open-source`, `#product`
+
+---
+
+<a id="item-tech-blog-3"></a>
+### [AI Briefing: Leadership, Models, and Inference](https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/) ⭐️ 6.0/10
+
+rss · Latent Space · Nov 13, 09:04
+
+**「Background」** This builder-oriented AINews roundup scans model releases, inference, agents, and creator tools. Its lead says NVIDIA announced Jensen Huang’s resignation after 33 years and named CFO Colette Kress interim CEO, although the supplied material does not substantiate that announcement.
+
+**「Solution」** Rather than advance one thesis, the briefing compares vendor claims with independent tests and deployment constraints. Google’s speed-first Gemini 4 Hydrogen is claimed by Google to run 2.5 times as fast as Gemini 3.8 Flash; Artificial Analysis finds a mixed profile—54 on its index at xhigh, 54% on Terminal-Bench 4.0 versus Sonnet’s 64%, roughly 200 tokens per second, and an 8% AA-Omniscience hallucination rate versus 43% and 52%—at $1.50/$7.50 per million input/output tokens. Thinking Machines’ Apache-2.0 Inkling 2 Small, with 594B total and 17B active parameters, is reported to fit on one GB200/GB300 node at up to 630 tokens per second per user with TP4, while Edge0 and Perplexity Decider target local and extraction workloads. The rest maps disputed GPU-fingerprinting claims, Anthropic’s self-hosted agents and meetings, real-world voice agents, and AI-assisted game disclosure, where one developer estimated at least $2,000 to replace disclosed assets in a $13.99 game, alongside Qwen quantization and repurposed-GPU experiments that show deployment depends on more than benchmark quality.
+
+**「Takeaway」** The author’s larger point is that AI capability must be evaluated as a stack of tradeoffs—quality, speed, price, openness, hardware provenance, and deployment reliability—not as a single leaderboard score. The edition is therefore most useful as a curated map of practical tradeoffs, not as substantiation of every headline claim.
+
+**Tags**: `#ai-tools`, `#vibecoding`, `#local-llm`, `#agentic-workflows`, `#creator`
+
+---
+
+## AI Creator Radar
+
+<a id="item-ai-creator-1"></a>
+### [How AI Agents Helped an Independent Developer Test and Refine Mole](https://sspai.com/post/118512) ⭐️ 8.0/10
+
+Author Tw93 reports that Mole advanced from version 1.13 to 1.19, added AI-tool and system-data cleanup, and released its Windows desktop edition on October 14; the project’s GitHub star count reached 73.9K. Using AI agents with computer-use capabilities, he installed, operated, uninstalled, and inspected 853 Mac applications, adding 13 reusable cleanup rules, more than 90 precise cleanup paths, and more than 100 unit tests while changing over 30 cleanup decisions to avoid deleting user or shared data. He also tested more than 30 AI tools in real projects, but retained conservative safeguards such as offering 15-, 30-, 90-, and 120-day session-retention options, backing up sessions before deletion, and only removing worktrees when Git shows no uncommitted changes. The Windows desktop edition, built with C\# and WinUI 3, went through roughly 14 pre-release iterations and testing with 482 applications; the author reports a codebase of more than 90,000 lines and 5,500 tests. These figures and results are the developer’s own account.
+
+rss · 少数派 · Nov 13, 03:35
+
+**「Why Now」** AI coding agents can now drive GUI-based installation and cleanup tests at a scale that would otherwise be labor-intensive, making Mole a concrete case study in how agents can change an independent developer’s workflow. The author’s conclusion that implementation is getting cheaper while testing, judgment, and polish matter more is a personal lesson from one product, not an industry-wide finding.
+
+**「Content Angle」** Build the article around the tension between scale and judgment: AI agents helped expand software testing to 853 Mac applications and automate repetitive checks, but the author still had to determine which files must never be deleted, interpret actual tool behavior, and revise unclear icons and copy.
+
+**Tags**: `#creator`, `#ai-tools`, `#product`, `#workflow`
+
+---
+
+<a id="item-ai-creator-2"></a>
+### [AI-Assisted Review Writing: One Researcher’s Workflow](https://sspai.com/post/118153) ⭐️ 7.0/10
+
+Published on November 13, 2026, this first-person account describes how the author used Gemini, Qwen, ChatGPT, Zotero, Keynote or PowerPoint, and WorkBuddy while writing a food-science review that he says was accepted and published online by Food Science. AI assisted with topic exploration, outlining, abstract screening, section-level drafting, diagram references, and submission checks, while Zotero managed references and the final figures were rebuilt in Keynote. The author recommends feeding the models roughly 15–20 abstracts at a time, retaining source identifiers, and manually checking data, terminology, methods, references, and diagram logic against the original papers; he notes that the workflow was tested in food engineering and may require adaptation to other disciplines.
+
+rss · 少数派 · Nov 13, 07:00
+
+**「Why now」** The practical interest is that the article documents a connected academic workflow in which AI handles repetitive extraction, comparison, drafting, and formatting tasks rather than only isolated sentences. It remains one author’s experience, without controlled evidence that the workflow improves accuracy, speed, acceptance odds, or reproducibility.
+
+**「Content angle」** A useful angle is a stage-by-stage, human-in-the-loop map of AI-assisted review writing: what each tool was asked to do, which claims cannot safely be inferred from abstracts alone, and where researchers still need to verify full texts, data, terminology, and scientific figures.
+
+**Tags**: `#ai-tools`, `#workflow`, `#research-writing`, `#creator`, `#human-in-the-loop`
+
+---
+
+<a id="item-ai-creator-3"></a>
+### [NVIDIA Leadership Change and New AI Tools Headline a Tech Roundup](https://sspai.com/post/118966) ⭐️ 7.0/10
+
+The lead item reports that, on November 12, 2026, NVIDIA’s board said co-founder Jensen Huang had resigned as president, CEO, and a director effective immediately; CFO Colette Kress is interim CEO while the board searches for a permanent successor, and long-time director Harvey C. Jones has become the company’s first chair. The item cites an NVIDIA announcement and Form 8-K but does not attach those documents or state Huang’s reason for resigning; NVIDIA says operations, customer commitments, and the product roadmap will remain unaffected, and FY2027 third-quarter results are still scheduled for November 17. The roundup also covers the 44th Golden Joystick Awards, Apex Compute’s ANR frame-generation beta, Tencent’s Yuanbao Search, Volcano Engine’s Seedance 2.5 flash, Google’s Gemini 4 Hydrogen, Gemini Decisions API, and A2UI 1.0, plus third-party model access in Doubao Work. Among the stated limits and baselines, Seedance 2.5 flash costs about RMB 0.99 per second at 720p, caps output at 30 seconds, and plans an API launch for November 15; Gemini Hydrogen supports a 1-million-token context at US$1.50 per million input tokens and US$7.50 per million output tokens; and Apex’s reported ANR performance and image-quality comparisons with DLSS, along with Google’s safety gains, have not been independently verified.
+
+rss · 少数派 · Nov 13, 00:48
+
+**「Why now」** The reported departure took effect immediately and would mark NVIDIA’s first CEO transition, while a permanent successor and the reason for the resignation remain unknown. Its scheduled November 17 earnings release is the next disclosed company checkpoint, but the material provides no evidence yet of actual changes—or no changes—to AI hardware, tools, pricing, or creative workflows.
+
+**「Content angle」** Possible angle: Frame NVIDIA’s first CEO transition around the gap between immediate personnel actions and unverified continuity—Huang’s departure is reported as effective, while the permanent succession, reasons, and any effects on products, pricing, and developer or creative workflows remain unsettled.
+
+**Tags**: `#ai-tools`, `#nvidia`, `#gpu`, `#leadership`
 
 ---
